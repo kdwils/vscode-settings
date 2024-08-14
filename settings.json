@@ -1,0 +1,45 @@
+{
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "files.autoSave": "afterDelay",
+    "extensions.ignoreRecommendations": false,
+    "terminal.integrated.shellIntegration.enabled": true,
+    "terminal.integrated.fontFamily": "FiraCode Nerd Font Mono",
+    "window.zoomLevel": 0,
+    "editor.formatOnSave": true,
+    "explorer.confirmDelete": false,
+    "redhat.telemetry.enabled": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "vs-kubernetes": {
+        "disable-linters": [
+            "resource-limits"
+        ],
+        "vs-kubernetes.crd-code-completion": "disabled"
+    },
+    "editor.inlineSuggest.enabled": true,
+    "go.lintTool": "golangci-lint",
+    "go.lintFlags": [
+        "--fast"
+    ],
+    "remote.portsAttributes": {
+        "443": {
+            "protocol": "https"
+        },
+        "8443": {
+            "protocol": "https"
+        }
+    },
+    "[rust]": {
+        "editor.defaultFormatter": "rust-lang.rust-analyzer",
+        "editor.formatOnSave": true,
+    },
+    "editor.codeActionsOnSave": {},
+    "gopls": {
+        "ui.diagnostic.analyses": {
+            "fieldalignment": true
+        }
+    },
+    "go.alternateTools": {},
+}
